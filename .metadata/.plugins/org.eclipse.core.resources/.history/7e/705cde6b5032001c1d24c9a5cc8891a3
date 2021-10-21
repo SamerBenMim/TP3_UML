@@ -1,0 +1,12 @@
+
+public class FruitsRouges extends CoupeGlacee {
+public static final FruitsRouges SINGLETON = new FruitsRouges();
+private FruitsRouges() {
+this.parfums.add("FRAISE");
+this.parfums.add("FRAMBOISE");
+this.parfums.add("CASSIS");
+}
+public float cout() {
+return 6;
+}
+}

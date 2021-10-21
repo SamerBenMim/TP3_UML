@@ -1,0 +1,6 @@
+package shape.copy;
+
+public abstract class shapeFactory {
+shapeInterface circle = new 
+
+}

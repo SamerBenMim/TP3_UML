@@ -1,0 +1,16 @@
+
+public class Parfum {
+	String name;
+	final static Parfum CASSIS =new Parfum("CASSIS");
+	final static Parfum CHOCOBLANC =new Parfum("CHOCOBLANC");
+	final static Parfum CHOCOLAIT =new Parfum("CHOCOLAIT");
+	final static Parfum FRAISE =new Parfum("FRAISE");
+	final static Parfum FRAMBOISE=new Parfum("FRAMBOISE");
+	final static Parfum CHOCONOIR=new Parfum("CHOCONOIR");
+	public Parfum(String s) {
+		this.name=s;
+	}
+	public String toString() {
+		return this.name;	}
+
+}

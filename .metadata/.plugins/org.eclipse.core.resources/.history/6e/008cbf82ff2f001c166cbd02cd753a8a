@@ -1,0 +1,11 @@
+package builder;
+
+public interface BuilderInterface {
+
+	void reset();
+	void setSeats(int nbrSeats);
+	
+	
+	
+	void getObject();
+}

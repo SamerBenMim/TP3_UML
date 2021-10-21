@@ -1,0 +1,11 @@
+package shape;
+
+public class main {
+
+	public static void main(String[] args) {
+		ShapeInterface= new shapeFactory().createShape(1)
+		
+		
+	}
+
+}

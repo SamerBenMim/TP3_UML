@@ -1,0 +1,16 @@
+
+public class SauceChocolatDecorator extends ToppingDecorator {
+	public SauceChocolatDecorator (CoupeGlacee Coupe) {
+		super(Coupe);
+	}
+	public float cout() {
+		
+		return   (super.cout()+0.7f);
+	}
+public String description() {
+		
+		return coupeToppingDecorator.description() + " et une sauce Chocolat";
+	}
+
+}
+

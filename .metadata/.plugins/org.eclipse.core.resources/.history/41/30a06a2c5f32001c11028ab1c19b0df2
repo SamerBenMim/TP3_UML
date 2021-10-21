@@ -1,0 +1,16 @@
+
+public class ChantillyDecorator extends ToppingDecorator {
+	
+	public ChantillyDecorator (CoupeGlacee coupe) {
+		super(coupe);
+	}
+	public float cout() {
+		
+		return   (super.cout()+0.5f);
+	}
+public String description() {
+		
+		return coupeToppingDecorator.description() + " chantilly";
+	}
+
+}

@@ -1,0 +1,13 @@
+package shape;
+
+public class shapeFactory() {
+ public ShapeInterface createShape(x) {
+	 switch(x)
+     {
+         case(1):
+             return new Circle();
+         
+         case(2):
+             return new Squre();
+ }
+}

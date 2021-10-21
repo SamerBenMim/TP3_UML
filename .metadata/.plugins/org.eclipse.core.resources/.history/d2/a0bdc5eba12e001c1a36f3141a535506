@@ -1,0 +1,5 @@
+package shape.copy;
+
+public class shapeFactoryCircle {
+
+}

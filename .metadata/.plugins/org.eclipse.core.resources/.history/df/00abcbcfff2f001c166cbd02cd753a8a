@@ -1,0 +1,35 @@
+package builder;
+
+public class CarBuilder  implements BuilderInterface {
+
+	private Car car ;
+	public void reset() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setSeats(int nbrSeats) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setMat(int mat) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void setGps(boolean gps) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void getObject() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

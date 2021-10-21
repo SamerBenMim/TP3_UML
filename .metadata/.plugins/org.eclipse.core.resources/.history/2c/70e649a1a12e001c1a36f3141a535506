@@ -1,0 +1,17 @@
+package shape.copy;
+
+public class shapeFactory {
+ public abstract ShapeInterface createShape() {
+	 switch(x)
+     {
+         case(1):
+             return new Circle();
+         
+         case(2):
+             return new square();
+         default :
+         return new square();
+ }
+	
+}
+}

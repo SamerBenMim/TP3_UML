@@ -1,0 +1,11 @@
+package shape.copy;
+
+public class main {
+
+	public static void main(String[] args) {
+	 
+		ShapeInterface circle= new shapeFactoryCircle().createShape();
+		circle.draw();
+	}
+
+}

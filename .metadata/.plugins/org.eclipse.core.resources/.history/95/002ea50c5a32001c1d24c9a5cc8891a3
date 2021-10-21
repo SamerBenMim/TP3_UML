@@ -1,0 +1,20 @@
+import java.util.Iterator;
+import java.util.List;
+
+public class Commande {
+	List<CoupeGlacee> achats;
+	 public Commande(List<CoupeGlacee>  achats) {
+	        this.achats = achats;
+	    }
+
+	    public void facture() {
+	        float total = 0;
+	        for (Iterator it = this.achats.iterator(); it.hasNext(); ) {
+	            CoupeGlacee achat = (CoupeGlacee) it.next();
+	            System.out.println(achat.description() + " + " + achat.cout());
+	            total = total + achat.cout();
+	        }
+	        System.out.println(" TOTAL : " + total);
+
+	    }
+}

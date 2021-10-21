@@ -1,0 +1,8 @@
+
+public class Parfum {
+	public Parfum(String s) {
+		this.name=s;
+	}
+String name;
+
+}

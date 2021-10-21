@@ -1,0 +1,17 @@
+package glace;
+
+public class ChantillyDecorator extends ToppingDecorator {
+	
+	public ChantillyDecorator (CoupeGlacee Coupe) {
+		super(Coupe);
+	}
+	public float cout() {
+		
+		return   (super.cout()+0.5f);
+	}
+public String description() {
+		
+		return coupeToppingDecorator.description() + " creme Chantilly";
+	}
+
+}

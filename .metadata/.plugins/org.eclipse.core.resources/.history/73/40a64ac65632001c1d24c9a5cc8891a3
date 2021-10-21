@@ -1,0 +1,20 @@
+public class ToppingDecorator extends CoupeGlacee {
+
+	public CoupeGlacee coupeToppingDecorator ;
+	
+	public ToppingDecorator(CoupeGlacee Coupe) {
+		this.coupeToppingDecorator = Coupe ;
+	}
+	
+	@Override
+	public float cout() {
+		// TODO Auto-generated method stub
+		return coupeToppingDecorator.cout();
+	}
+	public String description() {
+		
+		return coupeToppingDecorator.description();
+	}
+	
+
+}
